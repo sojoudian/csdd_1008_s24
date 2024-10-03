@@ -17,7 +17,7 @@ func TestMult(t *testing.T) {
 	for _, tc := range testCases {
 		result := Mult(tc.a, tc.b)
 		if result != tc.expected {
-			t.Errorf("Lult(%d, %d) = %d; expected %d", tc.a, tc.b, result, tc.expected)
+			t.Errorf("Mult(%d, %d) = %d; expected %d", tc.a, tc.b, result, tc.expected)
 		}
 	}
 
